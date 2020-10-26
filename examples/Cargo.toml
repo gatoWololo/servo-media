@@ -20,7 +20,7 @@ servo-media = { path = "../servo-media" }
 webrender = { version = "0.60.0", optional = true }
 webrender_api = { version = "0.60.0", optional = true }
 websocket = { version = "0.22", optional = true }
-ipc-channel = { version = "0.14", optional = true }
+rr_channel = { git = "https://github.com/gatoWololo/rr_channel", optional = true}
 
 [target.'cfg(not(target_os = "android"))'.dependencies]
 winit = { version = "0.19", optional = true }
@@ -30,7 +30,7 @@ clap = { version = "2.33", default-features = false, optional = true }
 [features]
 default = []
 gui = [ "euclid", "clap", "failure", "failure_derive", "gleam", "glutin", "webrender", "webrender_api", "winit" ]
-player = [ "ipc-channel" ]
+player = [ "rr_channel" ]
 noise = [ "rand" ]
 webrtc = [ "rand", "serde", "serde_derive", "serde_json", "websocket" ]
 

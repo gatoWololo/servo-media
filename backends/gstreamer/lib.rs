@@ -17,7 +17,7 @@ extern crate gstreamer_player as gst_player;
 extern crate gstreamer_sdp as gst_sdp;
 extern crate gstreamer_video as gst_video;
 extern crate gstreamer_webrtc as gst_webrtc;
-extern crate ipc_channel;
+extern crate rr_channel;
 #[macro_use]
 extern crate lazy_static;
 #[macro_use]
@@ -48,7 +48,7 @@ pub mod webrtc;
 
 use device_monitor::GStreamerDeviceMonitor;
 use gst::ClockExt;
-use ipc_channel::ipc::IpcSender;
+use rr_channel::ipc_channel::ipc::IpcSender;
 use media_stream::GStreamerMediaStream;
 use mime::Mime;
 use registry_scanner::GSTREAMER_REGISTRY_SCANNER;

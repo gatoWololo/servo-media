@@ -10,7 +10,7 @@ extern crate failure;
 extern crate failure_derive;
 #[cfg(not(target_os = "android"))]
 extern crate glutin;
-extern crate ipc_channel;
+extern crate rr_channel;
 extern crate servo_media;
 extern crate webrender;
 extern crate webrender_api;

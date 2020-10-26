@@ -3,7 +3,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 use failure::Error;
-use ipc_channel::ipc::{self, IpcReceiver};
+use rr_channel::ipc_channel::ipc::{self, IpcReceiver};
 use servo_media::player;
 use servo_media::player::video;
 use servo_media::ServoMedia;

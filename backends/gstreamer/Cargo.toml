@@ -55,8 +55,8 @@ features = ["v1_16"]
 [dependencies.gstreamer-video]
 version = "0.15"
 
-[dependencies.ipc-channel]
-version = "0.14"
+[dependencies.rr_channel]
+git = "https://github.com/gatoWololo/rr_channel"
 
 [dependencies.lazy_static]
 version = "1.2.0"

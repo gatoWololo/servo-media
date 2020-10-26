@@ -1,4 +1,4 @@
-extern crate ipc_channel;
+extern crate rr_channel;
 extern crate servo_media;
 extern crate servo_media_auto;
 

@@ -1,5 +1,5 @@
 extern crate boxfnonce;
-extern crate ipc_channel;
+extern crate rr_channel;
 extern crate servo_media;
 extern crate servo_media_audio;
 extern crate servo_media_player;
@@ -8,7 +8,7 @@ extern crate servo_media_traits;
 extern crate servo_media_webrtc;
 
 use boxfnonce::SendBoxFnOnce;
-use ipc_channel::ipc::IpcSender;
+use rr_channel::ipc_channel::ipc::IpcSender;
 use servo_media::{Backend, BackendInit, SupportsMediaType};
 use servo_media_audio::block::{Block, Chunk};
 use servo_media_audio::context::{AudioContext, AudioContextOptions};

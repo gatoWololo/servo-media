@@ -1,8 +1,8 @@
-extern crate ipc_channel;
+extern crate rr_channel;
 extern crate servo_media;
 extern crate servo_media_auto;
 
-use ipc_channel::ipc;
+use rr_channel::ipc_channel::ipc;
 use servo_media::player::context::{GlApi, GlContext, NativeDisplay, PlayerGLContext};
 use servo_media::player::{PlayerEvent, StreamType};
 use servo_media::{ClientContextId, ServoMedia};

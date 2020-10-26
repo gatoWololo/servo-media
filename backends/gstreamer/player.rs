@@ -7,7 +7,7 @@ use gst::prelude::*;
 use gst_app;
 use gst_player;
 use gst_player::prelude::*;
-use ipc_channel::ipc::{channel, IpcReceiver, IpcSender};
+use rr_channel::ipc_channel::ipc::{channel, IpcReceiver, IpcSender};
 use media_stream::GStreamerMediaStream;
 use media_stream_source::{register_servo_media_stream_src, ServoMediaStreamSrc};
 use render::GStreamerRender;

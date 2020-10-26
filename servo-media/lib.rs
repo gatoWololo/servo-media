@@ -12,7 +12,7 @@ use std::sync::{Arc, Mutex, Once};
 use audio::context::{AudioContext, AudioContextOptions};
 use player::audio::AudioRenderer;
 use player::context::PlayerGLContext;
-use player::ipc_channel::ipc::IpcSender;
+use player::rr_channel::ipc_channel::ipc::IpcSender;
 use player::video::VideoFrameRenderer;
 use player::{Player, PlayerEvent, StreamType};
 use streams::capture::MediaTrackConstraintSet;

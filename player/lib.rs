@@ -1,4 +1,4 @@
-pub extern crate ipc_channel;
+pub extern crate rr_channel;
 #[macro_use]
 extern crate serde_derive;
 extern crate servo_media_streams as streams;
@@ -9,7 +9,7 @@ pub mod context;
 pub mod metadata;
 pub mod video;
 
-use ipc_channel::ipc::{self, IpcSender};
+use rr_channel::ipc_channel::ipc::{self, IpcSender};
 use servo_media_traits::MediaInstance;
 use std::ops::Range;
 use streams::registry::MediaStreamId;
